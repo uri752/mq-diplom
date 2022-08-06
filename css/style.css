@@ -4,7 +4,7 @@
     font-family: "Open Sans";
     src: url("../fonts/OpenSans-Regular.woff");
     font-weight: 400;
-    fotn-style: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -927,8 +927,8 @@ a:hover {
     }
 
     .menu-mobil {
-        display: block;
-        fill: white;
+        display: block; 
+        fill: white;       
     }
 }
 
