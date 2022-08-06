@@ -29,18 +29,30 @@
                     <div class="form-row">
                         <label class="popup-hint">Вы подписаны на e-mail рассылку?</label>
                         <label class="radio-group">
+                            
+                            <!-- скрытое описание для input -->
+                            <span class="visually-hidden">Подписана на рассылку - Да</span>
                             <input type="radio" class="radio" name="radio-group" selected>
+
                             <span class="radio-group-text">Да</span>
                         </label>
                         <label class="radio-group">
+                            
+                             <!-- скрытое описание для input -->
+                             <span class="visually-hidden">Подписана на рассылку - Нет</span>
                             <input type="radio" class="radio" name="radio-group">
+
                             <span class="radio-group-text">Нет</span>
                         </label>
                     </div>
 
                     <div class="popup-row">
                         <label class="popup-hint" for="feedback-item-3">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+                        
+                        <!-- скрытое описание для input -->
+                        <span class="visually-hidden">Какой контент интересует?</span>
                         <textarea class="popup-field popup-textarea" id="feedback-item-3" placeholder="Может больше рецептов?"></textarea>
+
                     </div>
 
                     <button class="popup-button">Отправить</button>                        
@@ -77,13 +89,15 @@
                     <rect y="60" width="100" height="15"></rect>
                 </svg>
             </div>
+                        
             <div class="header-title">
                 <a href="#0">
                     <img class="logo-mobile" src="svg/noemi-logo.svg"
                         alt="Логотип">
                 </a>
                 <h1>Блог о творчестве, спорте и образе жизни</h1>
-            </div>
+            </div>        
+
         </div>
     </header>
 
@@ -97,7 +111,7 @@
                         <li><a href="#">Lifestyle</a></li>
                         <li><a href="#">Interior</a></li>
                     </ul>
-                    <h3>Сейчас в тренде: Сад на подоконнике</h3>
+                    <h3><a href="#0">Сейчас в тренде: Сад на подоконнике</a></h3>
                 </div>
             </div>
             <div class="trend trend2">
@@ -105,7 +119,7 @@
                     <ul class="menu-list-trend">
                         <li><a href="#">Food</a></li>                    
                     </ul>
-                    <h3>Сыры на красивых картинках из интернета: какие они на вкус?</h3>
+                    <h3><a href="#0">Сыры на красивых картинках из интернета: какие они на вкус?</a></h3>
                 </div>
             </div>
             <div class="trend trend3">
@@ -114,7 +128,7 @@
                         <li><a href="#">Lifestyle</a></li>
                         <li><a href="#">Travel</a></li>
                     </ul>
-                    <h3>Собираемся в первый поход в горы</h3>
+                    <h3><a href="#0">Собираемся в первый поход в горы</a></h3>
                 </div>
             </div>
             <div class="trend trend4">
@@ -123,7 +137,7 @@
                         <li><a href="#">Food</a></li>
                         <li><a href="#">Health</a></li>
                     </ul>
-                    <h3>Сейчас в тренде: Сколько витамина в лимонах</h3>
+                    <h3><a href="#0">Сейчас в тренде: Сколько витамина в лимонах</a></h3>
                 </div>
             </div>
         </div>
@@ -134,7 +148,7 @@
         <main>
             <!-- Пост 1: 10 Мест, ради которых стоит проснуться на рассвете -->
             <div class="post">
-                <img class="post-img" src="images/last-post1.jpg" alt="Рассвет">              
+                <div><img class="post-img" src="images/last-post1.jpg" alt="Рассвет"></div>
                 <div class="post-info">
                     <ul class="menu-list-post">
                         <li><a href="#">Travel</a></li>
@@ -155,7 +169,7 @@
 
             <!-- Пост 2: Йога для начинающих в домашних условиях -->
             <div class="post">
-                <img class="post-img" src="images/last-post2.jpg" alt="Йога для начинающих">
+                <div><img class="post-img" src="images/last-post2.jpg" alt="Йога для начинающих"></div>
                 
                 <div class="post-info">
                     <ul class="menu-list-post">
@@ -175,7 +189,7 @@
 
             <!-- Пост 3: Лучшие музыкальные фестивали этого лета -->
             <div class="post">
-                <img class="post-img" src="images/last-post3.jpg" alt="Музыкальные фестивали">                
+                <div><img class="post-img" src="images/last-post3.jpg" alt="Музыкальные фестивали"></div>                
 
                 <div class="post-info">
                     <ul class="menu-list-post">
@@ -198,7 +212,7 @@
 
             <!-- Пост 4: Наукоёмкий подход к кулинарии -->
             <div class="post">
-                <img class="post-img" src="images/last-post4.jpg" alt="Кулинария">
+                <div><img class="post-img" src="images/last-post4.jpg" alt="Кулинария"></div>
                 
                 <div class="post-info">
                     <ul class="menu-list-post">
@@ -219,7 +233,7 @@
 
             <!-- Пост 5: Делаем модные принты на подушках для интерьера -->
             <div class="post">
-                <img class="post-img" src="images/last-post5.jpg" alt="Модные принты">
+                <div><img class="post-img" src="images/last-post5.jpg" alt="Модные принты"></div>
                 
                 <div class="post-info">
                     <ul class="menu-list-post">
@@ -315,7 +329,11 @@
                 <form action="#0">
                     <div class="form-find">
                         <label for="find"></label>
+                        
+                        <!-- скрытое описание для input -->
+                        <span class="visually-hidden">Поле поиска</span>
                         <input type="text" id="find" placeholder="Найти ...">
+
                         <button>
                             <span class="visually-hidden">Кнопка поиска</span>
                         </button>
@@ -327,8 +345,12 @@
                 <h2>Рассылка</h2>
                 <form action="#0">
                     <div class="form-email">
-                        <label for="email"></label>
+                        <label for="email"></label>                        
+                        
+                        <!-- скрытое описание для input -->
+                        <span class="visually-hidden">Поле e-mail</span>
                         <input type="text" id="email" placeholder="Ваш email-адрес">
+
                         <button>Подписаться</button>
                     </div>
                 </form>
